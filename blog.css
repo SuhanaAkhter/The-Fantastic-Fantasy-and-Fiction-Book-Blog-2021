@@ -141,23 +141,9 @@
             "bio";
     }
 }
-.footer-content{
-    display: grid;
-    grid-template-columns: max-content max-content;
-    grid-template-rows: 100%;
-    grid-template-areas: 
-        "share madeBy"
-}
-.footer-text{
-    grid-area: madeBy;
-    padding-left: 25px;
-}
 .share{
     grid-area: share;
-    padding-left: 25px;
-    margin-top: auto;
-    margin-bottom: auto;
-    
+    margin:10px;
 }
 .navbar{
     grid-area: nav;
