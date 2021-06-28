@@ -72,7 +72,7 @@
     .container{
         display:grid;
         grid-template-columns: 100%;
-        grid-template-rows: 4% min-content min-content min-content 10%;
+        grid-template-rows: 4% min-content min-content min-content 100px;
         grid-template-areas: 
             "nav"
             "cover"
@@ -97,18 +97,19 @@
     }
     .author-box{
         display: grid;
-        grid-template-columns: 25% 75%;
-        grid-template-rows: 100%;
+        grid-template-columns: 100%;
+        grid-template-rows: min-content min-content;
         grid-template-areas: 
-            "pfp bio";
+            "pfp"
+            "bio";
     }
 }
 
-@media(max-width:849px){
+@media(max-width:449px){
     .container{
         display:grid;
         grid-template-columns: 100%;
-        grid-template-rows: 4% min-content min-content min-content 10%;
+        grid-template-rows: 4% min-content min-content min-content 100px;
         grid-template-areas: 
             "nav"
             "cover"
