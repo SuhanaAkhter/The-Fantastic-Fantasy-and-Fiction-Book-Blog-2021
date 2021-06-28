@@ -1,0 +1,208 @@
+@import url(navbar.css);
+
+@media(min-width:850px){
+    .container{
+        display:grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 5% 75% 10% 10%;
+        grid-template-areas: 
+            "nav nav"
+            "cover text"
+            "author author"
+            "ft ft";
+    }
+    .book-cover,
+    .text{
+        margin-top: 20px
+    }
+    img,
+    figcaption {
+        display: block;
+        margin: auto;
+        width:40vh;
+    }
+    .author-box{
+        display: grid;
+        grid-template-columns: 25% 75%;
+        grid-template-rows: 100%;
+        grid-template-areas: 
+            "pfp bio";
+        padding-top: 25px;
+        padding-bottom: 75px;
+    }
+    .author-pic{
+        padding-top: 15px;
+    }
+}
+
+@media(max-width:849px){
+    .container{
+        display:grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 4% min-content min-content min-content 100px;
+        grid-template-areas: 
+            "nav"
+            "cover"
+            "text"
+            "author"
+            "ft";
+    } 
+    .navbar__items {
+        display:none;
+    }
+    .navbar__link {
+        border-right: none;
+    }
+    img,
+    figcaption {
+        display: block;
+        margin: auto;
+        width: 49%;
+    }
+    .author-info{
+        padding-top: 25px;
+    }
+    .author-box{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: min-content min-content;
+        grid-template-areas: 
+            "pfp"
+            "bio";
+    }
+}
+
+@media(max-width:449px){
+    .container{
+        display:grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 4% min-content min-content min-content 100px;
+        grid-template-areas: 
+            "nav"
+            "cover"
+            "text"
+            "author"
+            "ft";
+    } 
+    .navbar__items {
+        display:none;
+    }
+    .navbar__link {
+        border-right: none;
+    }
+    img,
+    figcaption {
+        display: block;
+        margin: auto;
+        width: 49%;
+    }
+    .author-info{
+        padding-top: 25px;
+    }
+    .author-box{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: min-content min-content;
+        grid-template-areas: 
+            "pfp"
+            "bio";
+    }
+}
+.share{
+    grid-area: share;
+    margin:10px;
+}
+.navbar{
+    grid-area: nav;
+}
+.book-cover{
+    grid-area: cover;
+}
+.text{
+    grid-area: text;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.author-info{
+    grid-area: author;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+}
+.footer{
+    grid-area: ft;
+    background-color: lightgray;
+    position: fixed;
+	width: 100%;
+	left: 0;
+	bottom: 0;
+	align-items: center;
+}
+.author-pic{
+    grid-area:pfp;
+}
+.author-text{
+    grid-area:bio;
+}
+
+/* text and color styles */
+body{
+    background-color: rgb(230, 230, 230);
+    font-family: "Helvetica neue", Helvetica, sans-serif;
+    font-weight:100;
+}
+figcaption{
+    padding-top: 5px;
+    font-size:small;
+    text-align: center;
+}
+h1{
+    font-weight:250;
+    text-align: center;
+}
+h2{
+    font-weight:225;
+}
+h3{
+    font-weight:200;
+}
+hr{
+    margin: 7px;
+    height: 1px;
+    border:none;
+    color:gray;
+    background-color:gray
+}
+.img-break{
+    line-height: 2px;
+}
+.blog-post-link{
+    text-decoration: none;
+    color:black;
+}
+.nav-link{
+    text-decoration: none;
+}
+a:hover{
+    color:rgb(85, 85, 85);
+    text-decoration: underline;
+}
+a:active{
+    color:rgb(85, 85, 85);
+    text-decoration: underline;
+}
+.button{
+    text-decoration: none;
+    color:black;
+}
+button{
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+}
+.avatar{
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+}

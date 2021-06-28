@@ -1,0 +1,22 @@
+/* box model styles */
+.card{
+    background-color:rgb(186, 179, 223);
+    border-radius: 10px;
+}
+.genre{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.fantasy-genre{
+    color:rgb(69, 31, 255);
+}
+.fiction-genre{
+    color:rgb(150, 38, 255)
+}
+.book-title{
+    margin-top: 0px;
+    margin-bottom:5px;
+}
+.date{
+    margin-top:0px;
+}
