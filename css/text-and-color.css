@@ -1,0 +1,52 @@
+/* text and color styles */
+body{
+    background-color: rgb(230, 230, 230);
+}
+img {
+    display: block;
+    margin: auto;
+    width: 45%;
+}
+h1{
+    font-weight:250;
+    text-align: center;
+}
+h2{
+    font-weight:225;
+}
+h3{
+    font-weight:200;
+    font-size: 16px;
+}
+hr{
+    margin: 7px;
+    height: 1px;
+    border:none;
+    color:gray;
+    background-color:gray
+}
+.blog-post-link{
+    text-decoration: none;
+    color:black;
+}
+.nav-link{
+    text-decoration: none;
+}
+a:hover{
+    color:rgb(85, 85, 85);
+    text-decoration: underline;
+}
+a:active{
+    color:rgb(85, 85, 85);
+    text-decoration: underline;
+}
+.button{
+    text-decoration: none;
+    color:black;
+}
+button{
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+}
