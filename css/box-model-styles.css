@@ -10,13 +10,10 @@
 .fantasy-genre{
     color:rgb(69, 31, 255);
 }
-.fiction-genre{
+.science-fiction-genre{
     color:rgb(150, 38, 255)
 }
 .book-title{
     margin-top: 0px;
     margin-bottom:5px;
-}
-.date{
-    margin-top:0px;
 }
