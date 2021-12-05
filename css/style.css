@@ -20,7 +20,7 @@
         grid-template-columns: 50% 50%;
         grid-template-rows: 100%;
         grid-template-areas: 
-            "fantasy fiction";
+            "fantasy science-fiction";
     }
     .card{
         padding: 3%; 
@@ -144,8 +144,8 @@
 .blank{
     grid-area: blank;
 }
-.fiction-content{
-    grid-area: fiction;
+.science-fiction-content{
+    grid-area: science-fiction;
 }
 .book-cover{
     grid-area:cover
